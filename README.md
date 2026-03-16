@@ -53,6 +53,17 @@ Dual implementation (CLI and GUI) focused on game theory.
   * **Core:** Minimax recursive algorithm (AI impossible to win).
   * **Architecture:** Decoupling of game logic and interface, enabling the transition from Terminal to SFML by reusing the backend.
 
+### [Slime Puzzles](https://github.com/edu-gutierrez/SlimePuzzles)
+
+Complete 2D grid-based puzzle game where the player must solve spatial math operations to advance.
+
+* **Tech Stack:** C#, Unity, Aseprite.
+* **Details:**
+  * **Architecture:** Game state management (GameManager), turn-based system, and responsive UI.
+  * **Mechanics:** 20 levels with a progressive difficulty curve, environment multipliers, and logic doors.
+  * **Systems:** Player progress persistence (PlayerPrefs) and Quality of Life tools (fast mode).
+  * **Art:** 100% hand-drawn custom pixel art assets, sprites, and animations created from scratch.
+
 ### [Hell Masquerade (Global Game Jam 2026)](https://github.com/edu-gutierrez/hell-masquerade)
 
 A complete game developed in just 48 hours.

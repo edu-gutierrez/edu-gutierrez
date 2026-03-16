@@ -53,6 +53,17 @@ Implementación dual (CLI y GUI) enfocada en la teoría de juegos.
   * **Core:** Algoritmo Minimax recursivo (IA imposible de ganar).
   * **Arquitectura:** Desacoplamiento entre la lógica del juego y la interfaz, permitiendo pasar de Terminal a SFML reutilizando el backend.
 
+### [Slime Puzzles](https://github.com/edu-gutierrez/SlimePuzzles)
+
+Juego completo de puzles 2D basado en cuadrículas donde el jugador debe resolver operaciones matemáticas espaciales para avanzar.
+
+* **Tech Stack:** C#, Unity, Aseprite.
+* **Detalles:**
+  * **Arquitectura:** Gestión del estado del juego (GameManager), sistema de turnos y UI adaptativa.
+  * **Mecánicas:** 20 niveles con curva de dificultad progresiva, multiplicadores de entorno y puertas lógicas.
+  * **Sistemas:** Persistencia de progreso del jugador (PlayerPrefs) y herramientas de "Quality of Life" (modo rápido).
+  * **Arte:** Assets, sprites y animaciones pixel art creados 100% a mano desde cero.
+
 ### [Hell Masquerade (Global Game Jam 2026)](https://github.com/edu-gutierrez/hell-masquerade)
 
 Juego completo desarrollado solo en 48h.
