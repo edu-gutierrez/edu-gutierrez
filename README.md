@@ -16,6 +16,16 @@ Deep Reinforcement Learning agent based on Google DeepMind's AlphaZero, that lea
   * Implementation of **MCTS** to find the best moves.
   * Automated training loop with data augmentation to enhance the dataset.
 
+### [Argos Chess Engine](https://github.com/edu-gutierrez/Argos-ChessEngine)
+
+UCI chess engine written in C++ from scratch to learn how chess engines work under the hood. Developed version by version (from v1.0 to v1.11) measuring Elo gains with each new technique.
+
+* **Tech Stack:** C++.
+* **Details:**
+  * **Search:** Negamax with Alpha-Beta Pruning, Iterative Deepening, Quiescence Search, and Null Move Pruning.
+  * **Evaluation:** Tapered Eval (interpolates between middlegame and endgame) with PeSTO Tables.
+  * **Architecture:** Bitboards, make/unmake architecture (~2.5M nodes/s), Incremental Zobrist Hashing, and Transposition Tables.
+
 ### [Blackjack Q-Learning](https://github.com/edu-gutierrez/blackjack-rl)
 
 Reinforcement Learning agent that learns the optimal way to play Blackjack by self play.
